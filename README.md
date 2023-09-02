@@ -12,6 +12,6 @@ We have applied several data augmentation techniques to help the model train bet
 * height_shift_range;
 * width_shift_range.
   
-The final model is based on the ResNet-50 - a convolutional neural network that is 50 layers deep. We have adde the GlobalAveragePooling2D layer and 3 fully connected layers after that.
+The final model is based on the ResNet-50 - a convolutional neural network that is 50 layers deep. We have added the GlobalAveragePooling2D layer and 3 fully connected layers after that.
 
 The model showed the desired quality - after 14 epochs the validation MAE is 5.93, which means that, on average, our model's predicted age diverges from the real age by slightly less than 6 years.
